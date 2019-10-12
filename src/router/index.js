@@ -5,11 +5,18 @@ import NotFound from '@/pages/errors/404/NotFound'
 const routes = [
   {
     path: '/',
-    component: Home
-  },
-  {
-    path: '/user',
-    component: User
+    component: Home,
+    redirect: '/home',
+    children: [
+      {
+        path: 'home',
+        component: Home
+      },
+      {
+        path: 'user',
+        component: User
+      }
+    ]
   },
   {
     path: '*',

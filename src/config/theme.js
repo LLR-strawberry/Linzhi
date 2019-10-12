@@ -1,5 +1,5 @@
 const theme = {
-  layout: 'default  '
+  layout: 'default'
 }
 
 export default theme

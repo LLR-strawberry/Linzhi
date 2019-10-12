@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin') // 自动创建html文�
 module.exports = {
   devtool: 'inline-source-map', // 用于开发调试，方便清楚是那个文件出错 (共有7种)
   entry: {
-    vendor: ['react', 'react-dom'],
+    vendor: ['react', 'react-dom', 'react-router-dom', 'antd', 'redux'],
     app: path.resolve(__dirname, '../src/index.js')
   },
   output: {

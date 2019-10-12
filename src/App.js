@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
-import { ConfigProvider, Divider } from 'antd'
+import { ConfigProvider } from 'antd'
 import zhCN from 'antd/es/locale/zh_CN'
 import Layout from '@/components/Layout'
 import '@/assets/styles/reset.scss'
